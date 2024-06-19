@@ -1,0 +1,7 @@
+increment decrement opertors
+int z = x+y;
+    int m =5;
+    int n= m++;
+    System.out.println("m is "+m+", n is "+n);
+output :
+m is 6  n is 5
