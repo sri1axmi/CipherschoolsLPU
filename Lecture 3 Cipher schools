@@ -1,0 +1,34 @@
+data types
+1. primitive data type
+byte 1byte;short 2bytes;int 4bytes;long 8bytes;float 4bytes;double 8bytes;boolean 1bit;char 2bytes
+
+*string is a class in java whose size isn't fixed
+
+primitive data type
+import java.util.Scanner;
+public class primitivedatatype {
+public static void main(String[] args){
+    int x = 5;
+    int y = 7;
+    System.out.println("X is: "+x);
+    System.out.println("Y is: "+y);
+    byte b =10;
+    System.out.println("B is: "+b);
+    byte b2 =(byte)129;
+    System.out.println("B2 is: "+b2);
+    int i =b;//widening
+    System.out.println("I is: "+i);
+
+}
+}
+output:
+C:\Users\srila\.jdks\openjdk-22.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\lib\idea_rt.jar=57210:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\srila\IdeaProjects\java practice\out\production\java practice" primitivedatatype
+X is: 5
+Y is: 7
+B is: 10
+B2 is: -127
+I is: 10
+
+Process finished with exit code 0
+
+2. user-defined data type:
