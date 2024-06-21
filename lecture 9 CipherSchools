@@ -1,0 +1,24 @@
+inheritance
+**diamond problem tells why multiple inheritance isn't allowed
+
+class shape {//parent/base/super class
+    double pi = 3.14;
+
+    double getSquared(int r) {
+        return r * r;
+    }
+}
+class Circle extends shape{//child/base/derived
+    void area(int r){
+        System.out.println(pi*getSquared(r));
+    }
+}
+public class inheritance {
+    public static void main(String[] args){
+        Circle c = new Circle();
+        c.area(5);
+    }
+}
+output:
+78.5
+
