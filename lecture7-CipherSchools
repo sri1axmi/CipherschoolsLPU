@@ -1,4 +1,4 @@
-//instantiation 
+
 class Car{
     String name;
     String color;
@@ -35,7 +35,7 @@ Red
 2016
 150
 
-//controlflow
+//counterflow
 import java.util.Scanner;
 class Student {
     String name;
@@ -51,7 +51,7 @@ class Student {
         return false;
     }
 }
-public class ControlFlow {
+public class CounterFlow {
     int findMax(int a,int b,int c)
     {
         if(a>b){
