@@ -1,4 +1,4 @@
-//implementing a Binary Search Tree (BST) with basic operations:
+//implementing a Binary Search Tree (BST) with basic operations for school management system:
 insertion, searching, deletion, and inorder traversal.
 The program is interactive and uses a menu-driven approach for user inputs. Here's an explanation of what each part of the code does and what the output might be for different user inputs:
 code:
